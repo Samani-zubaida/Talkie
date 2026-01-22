@@ -57,7 +57,7 @@ npm install
 npm run dev
 ```
 
-# Streamify 
+# Taklie 
 
 A full-stack real-time communication platform supporting authenticated chat and video calls.
 Designed with modular architecture, clear separation of concerns, and production-ready patterns.
