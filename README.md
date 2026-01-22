@@ -57,7 +57,7 @@ npm install
 npm run dev
 ```
 
-# Taklie 
+# Talkie 
 
 A full-stack real-time communication platform supporting authenticated chat and video calls.
 Designed with modular architecture, clear separation of concerns, and production-ready patterns.
@@ -72,7 +72,6 @@ This project implements these requirements using modern web technologies and thi
 ---
 
 ## Solution Overview
-
 * JWT-based authentication for secure access
 * Real-time chat and video using Stream SDKs
 * Modular frontend and backend architecture
@@ -81,49 +80,38 @@ This project implements these requirements using modern web technologies and thi
 ---
 
 ## Architecture
-
 **Client**
-
 * React-based SPA
 * Centralized state management
 * API abstraction layer
 
 **Server**
-
 * REST APIs with Express
 * Auth middleware with JWT
 * MongoDB for persistence
 
 **Real-Time Layer**
-
 * Stream Chat SDK
 * Stream Video SDK
 
 ---
-
 ## Tech Stack
-
 **Frontend**
-
 * React
 * Tailwind CSS
 * Zustand
 * TanStack Query
 
 **Backend**
-
 * Node.js
 * Express.js
 * MongoDB
 
 **Auth**
-
 * JWT
-
 ---
 
 ## Repository Structure
-
 ```
 Streamify_clone/
 ├── backend/
@@ -146,7 +134,6 @@ Streamify_clone/
 ---
 
 ## Core Features
-
 * Secure user authentication
 * Real-time messaging
 * One-to-one and group video calls
@@ -155,13 +142,9 @@ Streamify_clone/
 * Error handling and validation
 
 ---
-
-
-
 ## Setup Instructions
 
 Clone repository:
-
 ```bash
 git clone https://github.com/samaniyusra/Streamify_clone.git
 cd Streamify_clone
@@ -171,22 +154,14 @@ cd Streamify_clone
 
 
 ## Execution Flow
-
 1. User authenticates via JWT.
 2. Client initializes Stream SDK with secure tokens.
 3. Real-time messaging and video sessions are established.
 4. Backend manages auth, user data, and access control.
 
 ---
-
 ## Engineering Focus
-
 * Separation of concerns
 * Stateless backend design
 * Modular, maintainable code
 * Production-style folder structure
-
----
-
-
-
